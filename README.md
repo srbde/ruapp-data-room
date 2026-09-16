@@ -1,16 +1,20 @@
-# PBA Líbano — Project Data Room
-## Sala de Datos Formalizada para Socios e Inversionistas de Proyecto
-### Concesión APP de Iniciativa Privada · Ley 1508 de 2012
+# PBA Líbano — Municipal & Project Data Room
+## Sala de Datos del Activo Municipal y Proceso de Concesión APP
+### Expediente de Debida Diligencia del Activo Público · Ley 1508 de 2012
 **Ecobank Development Colombia S.A.S. — Originador**  
-*Edición Oficial de Debida Diligencia · Septiembre 2026*
+*Edición Oficial del Activo · Septiembre 2026*
 
 ---
 
-## Propósito de la Sala de Datos
+## Propósito de esta Sala de Datos
 
-Bienvenido a la sala de datos oficial del proyecto de rehabilitación, modernización técnica y explotación operativa a 30 años de la **Planta de Beneficio Animal (PBA) del Municipio de Líbano, Tolima**.
+Este espacio compila la totalidad de los antecedentes jurídicos, títulos prediales, certificaciones municipales, expedientes técnicos, matriz de riesgos CONPES 3714, estudios de demanda regional y minutas del contrato de concesión relacionados con el **activo físico y el proceso municipal** de la **Planta de Beneficio Animal (PBA) del Municipio de Líbano, Tolima**.
 
-Este espacio compila la totalidad de los antecedentes jurídicos, títulos prediales, certificaciones municipales, expedientes técnicos, matriz de riesgos contractuales bajo lineamientos CONPES 3714, estudios de demanda regional y minutas de concesión para la evaluación integral de socios estratégicos e inversionistas de capital que proyectan vincularse patrimonialmente al proyecto.
+> [!NOTE]
+> **Delimitación de Alcance — Sala de Datos Municipal vs. Sala de Datos de Inversión:**  
+> Esta sala de datos (`ruapp/data-room/`) es de carácter **institucional, técnico y municipal**, centrada exclusivamente en la infraestructura pública, la titularidad del predio, los actos administrativos de la Alcaldía de Líbano, los permisos ambientales (CORTOLIMA), el estudio de mercado pecuario y el marco de concesión APP bajo la Ley 1508 de 2012.  
+> 
+> La **Sala de Datos de Inversión (Investor Data Room)** —que estructurará la tesis de retorno de capital, vehículos corporativos internacionales (SPV Florida LLC), tabla de capitalización, tokenomics, pacto de accionistas y contratos de suscripción— se desarrollará de forma independiente (en la órbita de `capital/`) y se apoyará en esta sala de datos municipal como capa probatoria del activo subyacente.
 
 ---
 
