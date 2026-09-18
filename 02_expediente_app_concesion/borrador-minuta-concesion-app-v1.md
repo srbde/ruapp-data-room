@@ -228,11 +228,11 @@ La vigilancia integral de la concesión se ejercerá a través de una Intervento
 | No. | Anexo Contractual | Objeto del Anexo | Estado Documental |
 |:---:|-------------------|------------------|:-----------------:|
 | **1** | Anexo Técnico y de Unidades Funcionales | Especificaciones de obra, equipamiento y cronograma | Integrado en Factibilidad |
-| **2** | Matriz de Riesgos CONPES 3714 | Tipificación, asignación y compensación de 39 riesgos | Ver [matriz-riesgos-conpes-3714-v1.md](file:///c:/Users/Alex/githubProjects/PSA/ruapp/data-room/03_anexos_tecnicos_y_ambientales/matriz-riesgos-conpes-3714-v1.md) |
-| **3** | Niveles de Servicio y Estándares Sanitarios | Indicadores de disponibilidad, bioseguridad y faenamiento | Ver [estandares-niveles-servicio-pba-v1.md](file:///c:/Users/Alex/githubProjects/PSA/ruapp/data-room/03_anexos_tecnicos_y_ambientales/estandares-niveles-servicio-pba-v1.md) |
+| **2** | Matriz de Riesgos CONPES 3714 | Tipificación, asignación y compensación de 39 riesgos | Ver [matriz-riesgos-conpes-3714-v1.md](../03_anexos_tecnicos_y_ambientales/matriz-riesgos-conpes-3714-v1.md) |
+| **3** | Niveles de Servicio y Estándares Sanitarios | Indicadores de disponibilidad, bioseguridad y faenamiento | Ver [estandares-niveles-servicio-pba-v1.md](../03_anexos_tecnicos_y_ambientales/estandares-niveles-servicio-pba-v1.md) |
 | **4** | Régimen Tarifario y Fórmulas de Deducción | Cuadro de tarifas iniciales, indexación IPC y penalidades | Integrado en Anexo Tarifario |
-| **5** | Plan de Manejo Social y Comunitario | Compromisos de empleo local, socialización y relación vecinal | Ver [plan-gestion-social-comunitaria-v1.md](file:///c:/Users/Alex/githubProjects/PSA/ruapp/data-room/03_anexos_tecnicos_y_ambientales/plan-gestion-social-comunitaria-v1.md) |
-| **6** | Inventario y Entrega Predial | Delimitación física, linderos y cabida operativa | Ver [informe-titulos-matricula-364-917-v1.md](file:///c:/Users/Alex/githubProjects/PSA/ruapp/data-room/01_titulos_y_seguridad_juridica/informe-titulos-matricula-364-917-v1.md) |
+| **5** | Plan de Manejo Social y Comunitario | Compromisos de empleo local, socialización y relación vecinal | Ver [plan-gestion-social-comunitaria-v1.md](../03_anexos_tecnicos_y_ambientales/plan-gestion-social-comunitaria-v1.md) |
+| **6** | Inventario y Entrega Predial | Delimitación física, linderos y cabida operativa | Ver [informe-titulos-matricula-364-917-v1.md](../01_titulos_y_seguridad_juridica/informe-titulos-matricula-364-917-v1.md) |
 | **7** | Régimen de Garantías y Seguros | Coberturas, amparos mínimos y vigencias asegurativas | Ficha de Garantías |
 | **8** | Mecanismo Líquido de Contingencias | Procedimiento de custodia, fondeo y desahogo de garantías | Ficha Fiduciaria |
 | **9** | Estándar de Reversión | Procedimiento pericial y protocolo de transferencia final | Manual de Reversión |
