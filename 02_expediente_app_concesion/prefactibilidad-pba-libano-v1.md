@@ -45,7 +45,7 @@
 
 Conforme al Decreto 1082 de 2015 (Art. 2.2.2.1.4.3), la evaluación económica se realiza bajo el concepto de **costo de ciclo de vida completo**:
 
-* **Inversión Inicial de Construcción (CapEx SPV):** **$7.250M COP** aportados por el capital privado para la ejecución de las fases F1 a F7.
+* **Inversión Inicial de Construcción (CapEx Inicial):** **$7.250M COP** aportados por el capital privado para la ejecución de las fases F1 a F7.
 * **Reinversiones y Mejoras Fondeadas con Operación:** **$4.300M COP** entre los Años 1 y 10.
 * **Mantenimiento Mayor (Años 11 a 29):** **$3.800M COP**.
 * **CapEx Total Ciclo de Vida (29 Años Operativos):** **$15.350M COP**, superando ampliamente el umbral legal mínimo de 6.000 SMMLV establecido por el Artículo 3 de la Ley 1508 de 2012.

@@ -14,7 +14,7 @@ El activo operará como una planta de **Categoría Nacional ante INVIMA** (Decre
 
 ```mermaid
 graph LR
-    A["Infraestructura Existente<br>Aporte en Especie Municipio"] --> B["Inversión y Rehabilitación<br>CapEx SPV: $7.250M COP"]
+    A["Infraestructura Existente<br>Aporte en Especie Municipio"] --> B["Inversión y Rehabilitación<br>CapEx Inicial: $7.250M COP"]
     B --> C["Operación a 30 Años<br>Monopolio Sanitario Regional"]
     C --> D["Flujos Diversificados<br>Tarifa + 4 Cadenas de Valor"]
     D --> E["Retorno Inversionistas +<br>5% Contraprestación Municipal"]
@@ -57,13 +57,13 @@ El proyecto supera el modelo tradicional de cobro exclusivo por degüello median
   * *Fase de Arranque (Y0–Y1):* 14 reses/día (~1.610 a 6.840 cabezas/año).  
   * *Régimen Pleno (Y11 en adelante):* 80 reses/día (~22.800 cabezas/año), conservadoramente estabilizado por debajo de la capacidad histórica de la planta (120 reses/día).
 * **CapEx de Inversión Total:**  
-  * **$7.250M COP** aportados por el vehículo de inversión privada (SPV) para obras civiles, línea mecanizada de faenado, cuartos fríos y PTAR.  
+  * **$7.250M COP** aportados por la inversión privada para obras civiles, línea mecanizada de faenado, cuartos fríos y PTAR.  
   * **$15.350M COP** de CapEx total ciclo de vida a 29 años (incluyendo reinversiones operativas y reposición de equipos), superando el umbral legal de 6.000 SMMLV.
 * **Contraprestación Municipal:** **5% de EBITDA** pagadero al Municipio del Líbano, fijado contractualmente.
 * **Estructura Societaria:**  
   * Concesionario Operativo: **PBA Líbano S.A.S.** (empresa receptora colombiana).  
   * Originador / Gestor Operativo: **Ecobank Development Colombia S.A.S.**  
-  * Vehículo de Inversión: Sociedad de Propósito Especial (SPV).
+  * Vehículo Concesionario: Sociedad de Propósito Específico (PBA Líbano S.A.S.).
 
 ---
 

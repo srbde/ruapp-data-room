@@ -14,7 +14,7 @@ Este espacio compila la totalidad de los antecedentes jurídicos, títulos predi
 > **Delimitación de Alcance — Sala de Datos Municipal vs. Sala de Datos de Inversión:**  
 > Esta sala de datos (`ruapp/data-room/`) es de carácter **institucional, técnico y municipal**, centrada exclusivamente en la infraestructura pública, la titularidad del predio, los actos administrativos de la Alcaldía de Líbano, los permisos ambientales (CORTOLIMA), el estudio de mercado pecuario y el marco de concesión APP bajo la Ley 1508 de 2012.  
 > 
-> La **Sala de Datos de Inversión (Investor Data Room)** —que estructurará la tesis de retorno de capital, vehículos corporativos internacionales (SPV Florida LLC), tabla de capitalización, tokenomics, pacto de accionistas y contratos de suscripción— se desarrollará de forma independiente (en la órbita de `capital/`) y se apoyará en esta sala de datos municipal como capa probatoria del activo subyacente.
+> La **Sala de Datos de Inversión (Investor Data Room)** —que estructurará la tesis de retorno de capital, vehículos corporativos de inversión privada, tabla de capitalización, pacto de accionistas y contratos de suscripción— se desarrolla de forma independiente (en la órbita de capital privado) y se apoya en esta sala de datos municipal como capa probatoria del activo subyacente.
 
 ---
 

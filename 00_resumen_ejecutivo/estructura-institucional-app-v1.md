@@ -23,7 +23,7 @@ El esquema adoptado es el de **Asociación Público-Privada de Iniciativa Privad
 ```mermaid
 graph TD
     A["Paso 1: Radicación Prefactibilidad<br>(Ecobank ante Alcaldía)"] --> B["Paso 2: Declaración de Interés<br>(Alcaldía autoriza Factibilidad)"]
-    B --> C["Paso 3: Constitución SPV Concesionaria<br>(PBA Líbano S.A.S.)"]
+    B --> C["Paso 3: Constitución Sociedad Concesionaria<br>(PBA Líbano S.A.S.)"]
     C --> D["Paso 4: Estudios y Radicación Factibilidad<br>(Ingeniería detallada, EIA y Modelo)"]
     D --> E["Paso 5: Evaluación y Acuerdo de Condiciones<br>(Términos definitivos de concesión)"]
     E --> F["Paso 6: Publicación en SECOP (4 meses)<br>(Ventana estatutaria de terceros)"]
@@ -61,5 +61,5 @@ Al tratarse de un municipio de **6ª Categoría**, las sesiones ordinarias del C
    Sociedad colombiana que estructura la iniciativa privada, radica la prefactibilidad y acredita la capacidad legal y experiencia de estructuración.
 2. **Vehículo Concesionario Operativo (PBA Líbano S.A.S.):**  
    Compañía receptora constituida en Colombia una vez declarada la viabilidad por la Alcaldía (Paso 2). Será la titular exclusiva del contrato de concesión, titular de las cuentas bancarias de recaudo y receptora de la inversión de capital.
-3. **Vehículo de Inversión (SPV):**  
-   Sociedad de Propósito Especial constituida en Estados Unidos (Florida LLC) que canaliza la inversión internacional hacia PBA Líbano S.A.S. mediante operaciones cambiarias debidamente registradas ante el Banco de la República como Inversión Extranjera Directa (IED).
+3. **Estructura de Financiación Privada:**  
+   Vehículo de inversión de capital privado institucional que canaliza los recursos hacia PBA Líbano S.A.S. mediante operaciones cambiarias debidamente registradas ante el Banco de la República como Inversión Extranjera Directa (IED).
