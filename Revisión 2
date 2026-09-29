@@ -1,0 +1,47 @@
+docs: corregir inconsistencias de estructura, cabida y soportes (sep 28 2026)
+
+Segunda revisión del data room2 mlx: estructura (Revisión 1) y
+reconciliación de cabida (pendiente 1). Pendientes 2 a 4 sin cerrar.
+
+README.md
+- Corregir ruta ruapp/data-room/ -> raíz del repositorio.
+- Documentar index.html, _sidebar.md y .nojekyll (sitio docsify).
+- Agregar fecha de corte y advertencia de visibilidad del repo.
+- Añadir índice de documentos con estado (vigente / pendiente / borrador).
+
+00_resumen_ejecutivo/
+- Mover pba-libano-investment-teaser-v1.md a la sala de inversión
+  (o marcarlo explícitamente como fuera del alcance municipal).
+- Teaser: mencionar al ocupante de hecho (vivero, R-34) donde dice
+  "libre de pasivos"; unificar "5% de EBITDA" con la minuta.
+- estructura-institucional: matizar "plazo improrrogable" (pendiente 4).
+
+01_titulos_y_seguridad_juridica/
+- plan-reconciliacion-cabida: reformular los ~2.000 m² adicionales como
+  hipótesis a verificar; corregir "Cláusula 6.5" -> 6.4; retirar la
+  afirmación de búsqueda del Tomo 35 "radicada" hasta anexar soporte.
+- plan-reconciliacion-cabida: aclarar qué infraestructura existe hoy
+  (LOD 500) y qué se construirá (PTAR, biodigestor).
+- informe-titulos: fechar el certificado usado (28/08/2018) y condicionar
+  "cero gravámenes" a certificado vigente.
+- Renombrar PDF de escritura 1860: es un compilado (certificado 2018 +
+  escritura); reemplazar por copia legible y separar los documentos.
+
+02_expediente_app_concesion/
+- borrador-minuta: Anexo 6 debe remitir también al plan de reconciliación.
+
+03_anexos_tecnicos_y_ambientales/
+- matriz-riesgos R-08: subir probabilidad (Alta / materializado); citar
+  soporte de la huella de ~3.000 m² y no solo la anotación 4.
+
+Convenciones
+- Unificar nombres de archivo (fecha ISO + slug + versión).
+
+Pendientes de soporte externo (no resolubles solo editando):
+- Certificado de tradición y libertad vigente de la matrícula 364-917.
+- Escrituras 109/1979 y 935/1959; búsqueda Tomo 35 en ORIP.
+- Ficha catastral y avalúo (Planeación).
+- Informe LOD 500 y acta de visita de la Gobernación (agosto 2024).
+- Anexo de 9 folios del oficio AL-RS-2026-00005653.
+
+Revisado por: A. Arango
