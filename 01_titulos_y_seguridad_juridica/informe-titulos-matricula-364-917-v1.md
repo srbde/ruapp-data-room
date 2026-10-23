@@ -43,6 +43,9 @@ El historial jurídico del inmueble cuenta con una tradición pública ininterru
 
 ## 3. Certificación de Libertad y Gravámenes
 
+> [!WARNING]
+> **Fecha del soporte:** los datos de esta sección provienen del certificado de tradición impreso el **28 de agosto de 2018**. Deben confirmarse con un certificado de libertad y tradición vigente antes de citarse como estado actual del folio.
+
 * **Gravámenes Hipotecarios:** CERO (0). El folio no registra gravámenes hipotecarios, prendas ni garantías reales vigentes.
 * **Medidas Cautelares:** CERO (0). No figuran embargos, demandas civiles registradas ni medidas de restablecimiento del derecho.
 * **Limitaciones al Dominio:** CERO (0). No constan patrimonios de familia inembargables, afectaciones a vivienda familiar ni servidumbres pasivas inscritas.
@@ -53,5 +56,14 @@ El historial jurídico del inmueble cuenta con una tradición pública ininterru
 ## 4. Conclusiones para la Concesión APP
 
 1. **Propiedad Pública Incontestable:** El Municipio del Líbano es el titular registral legítimo del inmueble, con facultad plena para transferir la tenencia y explotación económica del bien en el marco de una concesión a 30 años bajo la Ley 1508 de 2012.
-2. **Obligación de Disponibilidad:** El contrato de concesión contempla en su Cláusula 6.5 la obligación del Municipio de entregar el predio saneado, libre de reclamaciones y con disponibilidad pacífica.
+2. **Obligación de Disponibilidad:** El contrato de concesión contempla en su Cláusula 6.4 la obligación del Municipio de entregar el predio saneado, libre de reclamaciones y con disponibilidad pacífica.
 3. **Trámite de Actualización Catastral:** El código catastral del predio se encuentra en proceso de formalización técnica ante la Secretaría de Planeación ("SIN INFORMACIÓN" en folio antiguo), trámite en curso que no compromete la validez del título de dominio.
+
+---
+
+## 5. Observaciones de Soporte Documental (revisión del 28 de septiembre de 2026)
+
+1. **Certificado desactualizado:** el certificado de tradición del expediente es de agosto de 2018. El anexo de 9 folios citado en el oficio AL-RS-2026-00005653 (septiembre de 2026) no está incluido en esta sala.
+2. **PDF compilado:** el archivo `1988-11-09-escritura-1860-...pdf` contiene una carátula de solicitud ORIP, el certificado de tradición de 2018 y la escritura 1860 en escaneo de baja calidad. Se requiere una copia legible de la escritura, separada del certificado.
+3. **Alcance de la Escritura 1860:** el texto disponible corresponde a la incorporación global del patrimonio de EMPOLÍBANO LTDA al Municipio (con balance a septiembre de 1988). No describe linderos ni área del predio.
+4. **Escrituras faltantes:** no constan en la sala las escrituras 109/1979 (linderos del lote) ni 935/1959 (compraventa de origen). Son necesarias para resolver la diferencia de cabida (ver `plan-reconciliacion-cabida-operativa-v1.md`).

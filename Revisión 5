@@ -1,0 +1,153 @@
+From e911ae32022419ff880bd9d12771d729873eb989 Mon Sep 17 00:00:00 2001
+From: Alexander Arango <daarangov@ut.edu.co>
+Date: Mon, 12 Oct 2026 05:02:56 +0000
+Subject: [PATCH 3/3] =?UTF-8?q?docs:=20cerrar=20pendiente=202=20y=20regist?=
+ =?UTF-8?q?rar=20revisi=C3=B3n=203=20en=20CHANGELOG=20y=20README?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+- CHANGELOG: entrada 2026-10-12 con conclusiones, cambios y pendientes
+  nuevos derivados (vivero, EMSER/Celsia, RUAPP, uso de suelo, R-14).
+- README: estado de revisión de los documentos del pendiente 2, fecha de
+  corte y descripciones sin 'cero rechazo'.
+- Oficio 5383: corrige referencia errónea a R-14.
+- Nota 'Revisión 3': cierre del pendiente 2. Pendientes 3 y 4 abiertos.
+---
+ ...io-planeacion-uso-suelo-y-no-rechazo-v1.md |  2 +-
+ CHANGELOG.md                                  | 28 +++++++++++++++++++
+ README.md                                     | 22 +++++++--------
+ "Revisi\303\263n 3"                           | 12 ++++++++
+ 4 files changed, 52 insertions(+), 12 deletions(-)
+
+diff --git a/01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md b/01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md
+index ca2d9d0..2d25b5b 100644
+--- a/01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md
++++ b/01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md
+@@ -77,6 +77,6 @@
+    - *Lo que certifica:* que el Municipio **no adelanta** procesos de estructuración, concesión o contratación pública sobre la rehabilitación u operación de la planta. Esto sustenta el descarte de la causal de rechazo por estructuración propia de la entidad.
+    - *Lo que no certifica:* que ningún tercero haya registrado una iniciativa. Sobre ese punto el oficio dice solo que, **«hasta donde tiene conocimiento»** la Administración, nadie ha radicado ante el DNP otra iniciativa. Es una manifestación de conocimiento del Municipio, no una constancia del DNP ni del RUAPP, que no es llevado por el Municipio.
+    - *Conclusión:* el riesgo de rechazo queda **mitigado, no cerrado**. Debe verificarse en el RUAPP/DNP en la fecha de radicación y conservar la constancia. Se retira la expresión «certeza jurídica plena».
+-2. **Uso del suelo.** El uso industrial es el **proyectado en el PBOT, que está en formulación**. El propio oficio aclara que no es aprobación anticipada ni reemplaza licencias o permisos. No equivale a un uso de suelo vigente y no «garantiza» la ausencia de restricciones. Debe obtenerse el concepto de uso de suelo vigente (norma aplicable hoy) y seguir la adopción del PBOT. Ver riesgo R-14.
++2. **Uso del suelo.** El uso industrial es el **proyectado en el PBOT, que está en formulación**. El propio oficio aclara que no es aprobación anticipada ni reemplaza licencias o permisos. No equivale a un uso de suelo vigente y no «garantiza» la ausencia de restricciones. Debe obtenerse el concepto de uso de suelo vigente (norma aplicable hoy) y seguir la adopción del PBOT. La matriz CONPES 3714 no tiene hoy un riesgo específico de uso de suelo/adopción del PBOT (R-14 trata de los tiempos del Concejo); se recomienda agregarlo.
+ 3. **Escritura pública.** El oficio **no aporta** la escritura: dice que ya fue entregada por la Oficina de Almacén. La entrega no equivale a verificar el título (ver [Informe de títulos](./informe-titulos-matricula-364-917-v1.md) y [Plan de reconciliación de cabida](./plan-reconciliacion-cabida-operativa-v1.md)). La escritura en esta sala es el [PDF compilado de la Escritura 1.860 de 1988](./1988-11-09-escritura-1860-notaria-unica-libano-adjudicacion-municipio.pdf), cuyas observaciones siguen abiertas.
+ 4. **Observaciones de forma:** el oficio usa el formato FO-GDC-A03-13 (versión 01), el mismo código de la certificación de contratación (versión 02), lo cual es un código de formato institucional compartido y no implica identidad de documentos. La destinataria figura como «Ecobank Davelopment Colombia S.A.S» («No Aporta» dirección); error del original.
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 79e643e..507c621 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,33 @@
+ # Registro de Revisiones
+ 
++## 2026-10-12 — Revisión 3: alcance de «cero rechazo» y «cero contratos» (pendiente 2) · CERRADO
++
++Revisado por: A. Arango. Rama `ruapp-data-room3-mlx`. Alcance: cotejo de los tres soportes oficiales (AL-RS-2026-00005383, AL-RS-2026-00005653 y FO-GDC-A03-13) contra sus PDF y contra todas las afirmaciones del data room que los citan. Los pendientes 3 y 4 siguen abiertos.
++
++### Conclusiones
++- **Transcripciones fieles:** las tres transcripciones coinciden con los PDF. El problema no estaba en la transcripción sino en las secciones de «implicaciones», que afirmaban más que los documentos.
++- **«Cero rechazo»:** el oficio 5383 (29/08/2026) acredita que el Municipio no adelanta estructuración propia. Sobre terceros solo expresa conocimiento del Municipio («hasta donde tiene conocimiento»); no es constancia del DNP ni del RUAPP. Estado: **mitigado, no cerrado**; verificar en el RUAPP/DNP el día de la radicación.
++- **«Cero contratos vigentes»:** FO-GDC-A03-13 (10/09/2026) acredita solo (i) ausencia de contrato actual de mantenimiento y (ii) que en la oficina de contratación no reposan documentos de acceso de terceros. No cubre obra, operación, custodia, servicios públicos ni otras dependencias, y no menciona el vivero. No lleva radicado ni CVS.
++- **Vivero (R-34):** ocupante de hecho sin título; la desocupación es del Municipio y el protocolo de restitución citado en la matriz **no consta en la sala**.
++- **Uso de suelo:** el uso industrial es el proyectado en un PBOT en formulación, no uno vigente.
++
++### Cambios aplicados
++- **Certificación FO-GDC-A03-13, oficio 5383, oficio 5653:** secciones de implicaciones reescritas con alcance real, límites y observaciones de forma; se retiran afirmaciones sin soporte («cerrados de forma definitiva», «tramitado ante EMSER/Celsia», «protocolizado», «trámite activo»).
++- **Teaser:** «Predio libre de pasivos» reemplazado; se menciona el vivero.
++- **Matriz de riesgos:** R-34 sube a Media/Medio con pendientes; R-12 pasa de «cerrado, 100% descartada» a «mitigado, no cerrado».
++- **Prefactibilidad (sección 7):** citas alineadas con el alcance real.
++- **README y sidebar:** descripciones y estado de revisión actualizados; se elimina «Cero Rechazo» de las etiquetas.
++- **README:** se incorpora la Sustentación de suficiencia (76%) al árbol y al índice.
++
++### Pendientes nuevos derivados (requieren documentos o decisión)
++- Soporte escrito del protocolo de restitución del vivero y de su fecha de entrega; verificación en sitio.
++- Respuesta de EMSER E.S.P. y Celsia (punto 1 del oficio 5653) y certificación ampliada de contratación (obra, operación, custodia, vigilancia) con radicado o CVS.
++- Constancia RUAPP/DNP a la fecha de radicación; renovación de FO-GDC-A03-13 antes de radicar y de firmar.
++- Concepto de uso de suelo vigente; agregar a la matriz un riesgo de adopción del PBOT/uso de suelo.
++- Prefactibilidad cita «R-08 / R-14» como riesgo predial y de suelo, pero R-14 trata de los tiempos del Concejo; corregir la referencia.
++- Matriz: R-34 cambió de Baja/Bajo a Media/Medio por criterio de esta revisión; confirmar con el equipo.
++- Minuta, cláusula 6.4 y «Nota predial»: sin cambios; evaluar si debe mencionar expresamente al vivero.
++
+ ## 2026-09-28 — Revisión estructural y de cabida (pendiente 1)
+ 
+ Revisado por: A. Arango. Alcance: estructura del repositorio y reconciliación de cabida (matrícula 364-917). Los pendientes 2 a 4 están abiertos.
+diff --git a/README.md b/README.md
+index f3ce80c..f2a3c72 100644
+--- a/README.md
++++ b/README.md
+@@ -3,7 +3,7 @@
+ ### Expediente de Debida Diligencia del Activo Público · Ley 1508 de 2012
+ **Ecobank Development Colombia S.A.S. — Originador**  
+ *Edición Oficial del Activo · Septiembre 2026*  
+-*Última revisión interna: 28 de septiembre de 2026 · Documentos oficiales más recientes: 10 de septiembre de 2026*
++*Última revisión interna: 12 de octubre de 2026 · Documentos oficiales más recientes: 10 de septiembre de 2026*
+ 
+ ---
+ 
+@@ -33,12 +33,12 @@ Este espacio compila la totalidad de los antecedentes jurídicos, títulos predi
+ │
+ ├── 01_titulos_y_seguridad_juridica/               <-- Cadena de títulos, predio y certificaciones oficiales
+ │   ├── informe-titulos-matricula-364-917-v1.md    <-- Estudio de títulos: Matrícula 364-917 y Esc. 1860/1988
+-│   ├── certificacion-oficial-contratacion-v1.md   <-- Certificado FO-GDC-A03-13 (Cero contratos vigentes/terceros)
++│   ├── certificacion-oficial-contratacion-v1.md   <-- Certificado FO-GDC-A03-13 (Sin contrato actual de mantenimiento; sin documentos de acceso de terceros en contratación)
+ │   ├── oficio-respuesta-alcaldia-predio-v1.md     <-- Oficio AL-RS-2026-00005653 (Tradición, catastro y servicios)
+-│   ├── oficio-planeacion-uso-suelo-y-no-rechazo-v1.md <-- Oficio AL-RS-2026-00005383 (PBOT Industrial y Cero Rechazo)
++│   ├── oficio-planeacion-uso-suelo-y-no-rechazo-v1.md <-- Oficio AL-RS-2026-00005383 (PBOT industrial proyectado y ausencia de iniciativas concurrentes)
+ │   ├── plan-reconciliacion-cabida-operativa-v1.md <-- Reconciliación de área (1.035 m² titulados vs ~3.000 m² huella)
+ │   │   [Soportes Documentales Oficiales en PDF]:
+-│   ├── 2026-08-29-al-rs-2026-00005383-planeacion-uso-suelo-y-ausencia-iniciativas.pdf <-- PBOT Industrial & Cero Rechazo
++│   ├── 2026-08-29-al-rs-2026-00005383-planeacion-uso-suelo-y-ausencia-iniciativas.pdf <-- PBOT industrial proyectado e iniciativas concurrentes
+ │   ├── 2026-09-10-al-rs-2026-00005653-respuesta-solicitud-contratos-y-predio.pdf       <-- Servicios, Catastro & Tradición
+ │   ├── 2026-09-10-fo-gdc-a03-13-certificacion-contratacion-mantenimiento-acceso.pdf    <-- Certificado Negativo de Pasivos
+ │   └── 1988-11-09-escritura-1860-notaria-unica-libano-adjudicacion-municipio.pdf       <-- Escritura de Adjudicación al Municipio
+@@ -66,21 +66,21 @@ Este espacio compila la totalidad de los antecedentes jurídicos, títulos predi
+ 
+ ## Índice de Documentos y Estado de Revisión
+ 
+-Estado según la revisión interna del 28 de septiembre de 2026. «Con observaciones» indica que se revisó el documento y hay puntos abiertos (ver [CHANGELOG](CHANGELOG.md)); «Sin revisión de fondo» indica que aún no se ha verificado su contenido.
++Estado según la revisión interna del 12 de octubre de 2026 (Revisión 3). «Con observaciones» indica que se revisó el documento y hay puntos abiertos (ver [CHANGELOG](CHANGELOG.md)); «Sin revisión de fondo» indica que aún no se ha verificado su contenido.
+ 
+ | Documento | Estado de revisión |
+ |---|---|
+ | `00` Estructura institucional APP | Sin revisión de fondo (pendiente: plazo, prórroga) |
+-| `00` Teaser de inversión | Con observaciones (parcial; pendiente: 5%, terceros) |
++| `00` Teaser de inversión | Con observaciones (ítem 4 corregido en Rev. 3; pendiente: 5%) |
+ | `01` Informe de títulos 364-917 | Con observaciones (soporte 2018) |
+ | `01` Plan de reconciliación de cabida | Con observaciones (área adicional sin título) |
+ | `01` Escritura 1860 (PDF compilado) | Con observaciones (copia ilegible; compilado) |
+-| `01` Oficio AL-RS-2026-00005653 (+ PDF) | Con observaciones (anexo de 9 folios no incluido) |
+-| `01` Oficio AL-RS-2026-00005383 (+ PDF) | Sin revisión de fondo (pendiente 2) |
+-| `01` Certificación FO-GDC-A03-13 (+ PDF) | Sin revisión de fondo (pendiente 2) |
++| `01` Oficio AL-RS-2026-00005653 (+ PDF) | Con observaciones (anexo de 9 folios no incluido; puntos 1 y 4 abiertos) |
++| `01` Oficio AL-RS-2026-00005383 (+ PDF) | Revisado (Rev. 3, pendiente 2): mitigado, no cerrado; verificar RUAPP al radicar |
++| `01` Certificación FO-GDC-A03-13 (+ PDF) | Revisado (Rev. 3, pendiente 2): alcance limitado; sin radicado/CVS; no cubre el vivero |
+ | `02` Borrador de minuta de concesión | Revisado solo Anexo 6 y cláusulas 6.x |
+-| `02` Prefactibilidad · Factibilidad · Acta 06 | Sin revisión de fondo |
+-| `03` Matriz de riesgos CONPES 3714 | Revisado R-08, R-35, R-42; conteo de 39 riesgos verificado |
++| `02` Prefactibilidad · Factibilidad · Acta 06 | Prefactibilidad: revisada solo la sección 7 (Rev. 3); resto sin revisión de fondo |
++| `03` Matriz de riesgos CONPES 3714 | Revisado R-08, R-12, R-34, R-35, R-42; conteo de 39 riesgos verificado |
+ | `03` Sustentación de suficiencia de mecanismos (76%) | Sin revisión de fondo (incorporada al índice en la Revisión 3; choca con «plazo improrrogable», pendiente 4) |
+ | `03` Demás anexos técnicos y ambientales | Sin revisión de fondo |
+ | `04` Estudio de demanda · Presentación al Concejo | Sin revisión de fondo (pendiente 3) |
+diff --git "a/Revisi\303\263n 3" "b/Revisi\303\263n 3"
+index 0f28b1d..0780ca2 100644
+--- "a/Revisi\303\263n 3"	
++++ "b/Revisi\303\263n 3"	
+@@ -18,3 +18,15 @@ Orden de trabajo: pendiente 2 (cero rechazo / cero contratos), luego 3 (5% y
+ hato) y 4 (plazo y reformas a la Ley 1508).
+ 
+ Revisado por: A. Arango
++
++---
++docs: cerrar pendiente 2 (cero rechazo / cero contratos) (oct 12 de 2026)
++
++Resultado: las transcripciones coinciden con los PDF; se corrigieron las
++secciones de implicaciones, el teaser, R-12, R-34 y la prefactibilidad.
++- «Cero rechazo» -> mitigado, no cerrado (verificar RUAPP/DNP al radicar).
++- «Cero contratos» -> alcance limitado a mantenimiento y acceso de terceros
++  en contratación; el vivero no está cubierto.
++Pendientes 3 y 4 sin cerrar. Ver CHANGELOG (2026-10-12).
++
++Revisado por: A. Arango
+-- 
+2.43.0
+

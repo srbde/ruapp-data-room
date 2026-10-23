@@ -2,7 +2,8 @@
 ## Sala de Datos del Activo Municipal y Proceso de Concesión APP
 ### Expediente de Debida Diligencia del Activo Público · Ley 1508 de 2012
 **Ecobank Development Colombia S.A.S. — Originador**  
-*Edición Oficial del Activo · Septiembre 2026*
+*Edición Oficial del Activo · Septiembre 2026*  
+*Última revisión interna: 28 de septiembre de 2026 · Documentos oficiales más recientes: 10 de septiembre de 2026*
 
 ---
 
@@ -12,7 +13,7 @@ Este espacio compila la totalidad de los antecedentes jurídicos, títulos predi
 
 > [!NOTE]
 > **Delimitación de Alcance — Sala de Datos Municipal vs. Sala de Datos de Inversión:**  
-> Esta sala de datos (`ruapp/data-room/`) es de carácter **institucional, técnico y municipal**, centrada exclusivamente en la infraestructura pública, la titularidad del predio, los actos administrativos de la Alcaldía de Líbano, los permisos ambientales (CORTOLIMA), el estudio de mercado pecuario y el marco de concesión APP bajo la Ley 1508 de 2012.  
+> Esta sala de datos (raíz de este repositorio) es de carácter **institucional, técnico y municipal**, centrada exclusivamente en la infraestructura pública, la titularidad del predio, los actos administrativos de la Alcaldía de Líbano, los permisos ambientales (CORTOLIMA), el estudio de mercado pecuario y el marco de concesión APP bajo la Ley 1508 de 2012.  
 > 
 > La **Sala de Datos de Inversión (Investor Data Room)** —que estructurará la tesis de retorno de capital, vehículos corporativos de inversión privada, tabla de capitalización, pacto de accionistas y contratos de suscripción— se desarrolla de forma independiente (en la órbita de capital privado) y se apoya en esta sala de datos municipal como capa probatoria del activo subyacente.
 
@@ -21,11 +22,13 @@ Este espacio compila la totalidad de los antecedentes jurídicos, títulos predi
 ## Estructura Modular del Data Room
 
 ```text
-ruapp/data-room/
+/ (raíz del repositorio)
 ├── README.md                                      <-- Este documento guía
+├── CHANGELOG.md                                   <-- Registro de revisiones y pendientes
+├── index.html · _sidebar.md · .nojekyll           <-- Sitio de navegación docsify (GitHub Pages)
 │
 ├── 00_resumen_ejecutivo/                          <-- Visión general, tesis de inversión y arquitectura APP
-│   ├── pba-libano-investment-teaser-v1.md         <-- Teaser ejecutivo de inversión y fundamentos
+│   ├── pba-libano-investment-teaser-v1.md         <-- Teaser de inversión (fuera del alcance municipal; ver aviso en el documento)
 │   └── estructura-institucional-app-v1.md         <-- Marco normativo: Ley 1508/2012, 30 años, 5% contraprestación
 │
 ├── 01_titulos_y_seguridad_juridica/               <-- Cadena de títulos, predio y certificaciones oficiales
@@ -60,8 +63,30 @@ ruapp/data-room/
 
 ---
 
+## Índice de Documentos y Estado de Revisión
+
+Estado según la revisión interna del 28 de septiembre de 2026. «Con observaciones» indica que se revisó el documento y hay puntos abiertos (ver [CHANGELOG](CHANGELOG.md)); «Sin revisión de fondo» indica que aún no se ha verificado su contenido.
+
+| Documento | Estado de revisión |
+|---|---|
+| `00` Estructura institucional APP | Sin revisión de fondo (pendiente: plazo, prórroga) |
+| `00` Teaser de inversión | Con observaciones (parcial; pendiente: 5%, terceros) |
+| `01` Informe de títulos 364-917 | Con observaciones (soporte 2018) |
+| `01` Plan de reconciliación de cabida | Con observaciones (área adicional sin título) |
+| `01` Escritura 1860 (PDF compilado) | Con observaciones (copia ilegible; compilado) |
+| `01` Oficio AL-RS-2026-00005653 (+ PDF) | Con observaciones (anexo de 9 folios no incluido) |
+| `01` Oficio AL-RS-2026-00005383 (+ PDF) | Sin revisión de fondo (pendiente 2) |
+| `01` Certificación FO-GDC-A03-13 (+ PDF) | Sin revisión de fondo (pendiente 2) |
+| `02` Borrador de minuta de concesión | Revisado solo Anexo 6 y cláusulas 6.x |
+| `02` Prefactibilidad · Factibilidad · Acta 06 | Sin revisión de fondo |
+| `03` Matriz de riesgos CONPES 3714 | Revisado R-08, R-35, R-42; conteo de 39 riesgos verificado |
+| `03` Demás anexos técnicos y ambientales | Sin revisión de fondo |
+| `04` Estudio de demanda · Presentación al Concejo | Sin revisión de fondo (pendiente 3) |
+
+---
+
 ## Principios de la Información Presentada
 
 1. **Autonomía y Validez:** Toda la información aquí contenida refleja el estado actual ("moment-in-time") de la estructuración del proyecto y está respaldada por actos administrativos, estudios primarios y certificaciones oficiales.
-2. **Confidencialidad:** La información de este Data Room se comparte bajo acuerdos de estricta reserva con aliados e inversionistas de proyecto calificados.
+2. **Confidencialidad:** La información de este Data Room se comparte bajo acuerdos de estricta reserva con aliados e inversionistas de proyecto calificados. La visibilidad del repositorio debe corresponder a esta clasificación: el material reservado no debe publicarse en repositorios de acceso público.
 3. **Verificabilidad:** Los actos administrativos y certificaciones incorporan sus respectivos códigos de verificación electrónica (CVS) y radicados oficiales ante el Municipio del Líbano.

@@ -1,4 +1,5 @@
 * [**Inicio / Resumen**](README.md)
+* [Registro de Revisiones (Changelog)](CHANGELOG.md)
 
 * **00. Resumen Ejecutivo**
   * [Estructura Institucional APP](00_resumen_ejecutivo/estructura-institucional-app-v1.md)
@@ -11,7 +12,7 @@
   * [Oficio Planeación PBOT y Cero Rechazo](01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md)
   * [Plan Reconciliación Cabida Operativa](01_titulos_y_seguridad_juridica/plan-reconciliacion-cabida-operativa-v1.md)
   * *Documentos Oficiales (PDF)*:
-    * [Escritura Pública 1860 de 1988](01_titulos_y_seguridad_juridica/1988-11-09-escritura-1860-notaria-unica-libano-adjudicacion-municipio.pdf ':ignore')
+    * [Escritura 1860 de 1988 + certificado de tradición 2018 (compilado; pendiente copia legible)](01_titulos_y_seguridad_juridica/1988-11-09-escritura-1860-notaria-unica-libano-adjudicacion-municipio.pdf ':ignore')
     * [PBOT y Cero Rechazo AL-RS-2026-00005383](01_titulos_y_seguridad_juridica/2026-08-29-al-rs-2026-00005383-planeacion-uso-suelo-y-ausencia-iniciativas.pdf ':ignore')
     * [Respuesta Alcaldía AL-RS-2026-00005653](01_titulos_y_seguridad_juridica/2026-09-10-al-rs-2026-00005653-respuesta-solicitud-contratos-y-predio.pdf ':ignore')
     * [Certificación FO-GDC-A03-13](01_titulos_y_seguridad_juridica/2026-09-10-fo-gdc-a03-13-certificacion-contratacion-mantenimiento-acceso.pdf ':ignore')

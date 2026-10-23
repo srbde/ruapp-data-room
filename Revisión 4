@@ -1,0 +1,200 @@
+From 89b8f14bcf79f2c44af6aaada88ebad5ae4c606c Mon Sep 17 00:00:00 2001
+From: Alexander Arango <daarangov@ut.edu.co>
+Date: Mon, 12 Oct 2026 05:02:30 +0000
+Subject: [PATCH 2/3] =?UTF-8?q?docs:=20corregir=20alcance=20de=20certifica?=
+ =?UTF-8?q?ciones=20de=20contrataci=C3=B3n=20y=20planeaci=C3=B3n=20(pendie?=
+ =?UTF-8?q?nte=202)?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+- FO-GDC-A03-13: separar lo que certifica (sin contrato actual de
+  mantenimiento; sin documentos de acceso de terceros en contratación) de
+  lo que no (obra, operación, custodia, servicios públicos, vivero);
+  anotar ausencia de radicado/CVS y fecha de corte.
+- AL-RS-2026-00005383: 'cero rechazo' pasa a mitigado, no cerrado (la
+  ausencia de terceros es 'hasta donde tiene conocimiento' el Municipio;
+  verificar en RUAPP/DNP al radicar); uso industrial es proyecto de PBOT.
+- AL-RS-2026-00005653: estado real por punto; retirar 'cerrados de forma
+  definitiva', 'tramitado ante EMSER/Celsia' y 'protocolizado'.
+- Teaser: retirar 'libre de pasivos' y mencionar el vivero (R-34).
+- Matriz: R-34 sube a Media/Medio y R-12 pasa a mitigado, no cerrado.
+- Prefactibilidad (sección 7) y sidebar alineados.
+---
+ .../pba-libano-investment-teaser-v1.md        |  4 +--
+ .../certificacion-oficial-contratacion-v1.md  | 32 ++++++++++++++-----
+ ...io-planeacion-uso-suelo-y-no-rechazo-v1.md | 17 ++++++----
+ .../oficio-respuesta-alcaldia-predio-v1.md    | 20 ++++++++----
+ .../prefactibilidad-pba-libano-v1.md          |  6 ++--
+ .../matriz-riesgos-conpes-3714-v1.md          |  4 +--
+ _sidebar.md                                   |  4 +--
+ 7 files changed, 57 insertions(+), 30 deletions(-)
+
+diff --git a/00_resumen_ejecutivo/pba-libano-investment-teaser-v1.md b/00_resumen_ejecutivo/pba-libano-investment-teaser-v1.md
+index bf9427d..45eda43 100644
+--- a/00_resumen_ejecutivo/pba-libano-investment-teaser-v1.md
++++ b/00_resumen_ejecutivo/pba-libano-investment-teaser-v1.md
+@@ -33,8 +33,8 @@ graph LR
+    El área de influencia directa abarca 12 municipios contiguos del norte del Tolima (Líbano, Murillo, Villahermosa, Santa Isabel, Armero-Guayabal, Lérida, Venadillo, Piedras, Anzoátegui, Ambalema, Herveo y Casabianca), que concentran un inventario bovino superior a **165.488 cabezas** (Censo Pecuario ICA 2023), ofreciendo una cobertura de materia prima de entre **87% y 131%** respecto al throughput máximo proyectado.
+ 3. **Contrato de Concesión a Largo Plazo (30 Años):**  
+    Estructurado bajo la Ley 1508 de 2012 (Régimen de APP), modalidad de iniciativa privada sin desembolso de recursos públicos, otorgando exclusividad operativa sobre el activo municipal por tres décadas.
+-4. **Infraestructura y Predio Libre de Pasivos:**  
+-   El predio es de propiedad exclusiva del Municipio del Líbano (Matrícula Inmobiliaria 364-917), y la Oficina de Contratación Municipal ha certificado formalmente que no existen contratos vigentes de mantenimiento ni gravámenes de paso a terceros (`FO-GDC-A03-13`).
++4. **Predio de Propiedad Municipal con Soportes Contractuales Parciales:**  
++   El predio es de propiedad del Municipio del Líbano (Matrícula Inmobiliaria 364-917; la cabida y el certificado de tradición vigente están en verificación). A 10 de septiembre de 2026, la oficina de contratación certificó que no tiene contrato actual de mantenimiento de la planta y que en su archivo no reposan documentos de acceso de terceros (`FO-GDC-A03-13`). **Existe un ocupante de hecho (vivero) sin título contractual,** cuya desocupación es responsabilidad del Municipio (riesgo R-34). La entrega del predio libre de ocupaciones es una obligación de la Entidad en la minuta (cláusula 6.4).
+ 5. **Permiso Ambiental en Regla:**  
+    Cuenta con permiso de vertimientos otorgado por CORTOLIMA (Resolución 1910/2022), suspendido administrativamente y listo para reactivación y ajuste técnico durante la etapa de obra de la nueva PTAR y biodigestor.
+ 
+diff --git a/01_titulos_y_seguridad_juridica/certificacion-oficial-contratacion-v1.md b/01_titulos_y_seguridad_juridica/certificacion-oficial-contratacion-v1.md
+index 04ff910..86125fe 100644
+--- a/01_titulos_y_seguridad_juridica/certificacion-oficial-contratacion-v1.md
++++ b/01_titulos_y_seguridad_juridica/certificacion-oficial-contratacion-v1.md
+@@ -44,11 +44,27 @@
+ 
+ ---
+ 
+-## 3. Implicaciones de Debida Diligencia para Inversionistas y Socios
+-
+-1. **Blindaje de Pasivos Contractuales:**  
+-   La certificación escrita de la oficina de contratación del Municipio otorga plena seguridad de que **no existen contratistas de obra, mantenimiento, operación o custodia** reclamando derechos económicos, cesiones contractuales o indemnizaciones sobre las instalaciones o maquinaria de la planta.
+-2. **Inexistencia de Servidumbres o Acuerdos de Uso a Terceros:**  
+-   Queda oficialmente acreditado que **no existen acuerdos contractuales, concesiones menores, comodatos ni permisos de paso** registrados en el archivo contractual municipal que afecten el predio.
+-3. **Situación del Ocupante de Hecho (Vivero):**  
+-   Esta certificación confirma que el ocupante físico actual (un vivero forestal temporal originado en la administración anterior) no cuenta con amparo contractual formal. La Alcaldesa Municipal y la Secretaría de Planeación han confirmado que su desocupación física es responsabilidad exclusiva del Municipio y se activará administrativamente tras la radicación del proyecto RUAPP.
++## 3. Alcance Real de la Certificación y Límites (Revisión 3)
++
++**Lo que la certificación afirma literalmente (dos cosas):**
++
++1. Que, según los documentos que reposan en el archivo de la oficina de contratación, la entidad **no tiene contrato actual para el mantenimiento de la planta de beneficio animal**.
++2. Que, en la oficina de contratación, sobre **acceso de terceros al predio no reposa ningún documento**.
++
++**Lo que NO afirma** (y por tanto no debe citarse como soportado por este documento):
++
++| Afirmación que no está en el texto | Qué falta para sustentarla |
++|---|---|
++| Inexistencia de contratos de obra, operación, custodia o vigilancia | Certificación expresa del Grupo de Contratación sobre esos objetos |
++| Inexistencia de contratos de servicios públicos (energía, acueducto, aseo) | Respuesta de EMSER E.S.P. y Celsia, a quienes el oficio AL-RS-2026-00005653 remitió el punto por competencia |
++| Inexistencia de comodatos, permisos de paso, servidumbres o cualquier derecho de uso | Consulta a otras dependencias (Almacén, Planeación, Gobierno, Ambiente), certificado de tradición vigente y verificación en sitio; la certificación solo dice que en una oficina «no reposa ningún documento» |
++| Situación del ocupante de hecho (vivero) | Documento propio de la Alcaldía; este certificado **no menciona el vivero** |
++
++**Sobre el vivero.** La certificación no se pronuncia sobre el vivero. Que no haya documento de acceso en la oficina de contratación es compatible con que el vivero ocupe parte del predio **sin título** (ocupación de hecho). El oficio AL-RS-2026-00005653 (punto 3) lo reconoce como «el vivero ya identificado». La afirmación de que la Alcaldesa y la Secretaría de Planeación se comprometieron a su desocupación tras la radicación **no consta en ningún documento de esta sala**; debe soportarse con un acta, oficio o protocolo de restitución (ver R-34).
++
++**Observaciones de forma sobre el soporte:**
++- Fecha de corte: 10 de septiembre de 2026. La certificación es una fotografía a esa fecha y debe renovarse (con fecha reciente) antes de la radicación y de la firma del contrato.
++- No incluye número de radicado ni código de verificación electrónica (CVS), a diferencia de los oficios AL-RS-2026-00005383 y 00005653. Lleva firma manuscrita y referencia TRD. Se recomienda solicitar copia con radicado o CVS.
++- El texto original contiene errores de digitación («mantanimiento», «contratcion»), transcritos fielmente.
++- Fue expedida a solicitud de «Alex Trapp»; confirmar que corresponde al representante o delegado de Ecobank.
++- Está firmada por un Profesional Universitario, no por el jefe del Grupo de Contratación o el Secretario General.
+diff --git a/01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md b/01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md
+index ac3f6dc..ca2d9d0 100644
+--- a/01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md
++++ b/01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md
+@@ -69,11 +69,14 @@
+ 
+ ---
+ 
+-## 3. Implicaciones de Debida Diligencia para Inversionistas
++## 3. Alcance Real del Oficio y Límites (Revisión 3)
+ 
+-1. **Cero Riesgo de Rechazo Automático (Decreto 1082, Art. 2.2.2.1.5.1):**  
+-   El estatuto contractual de APP dispone que una iniciativa privada se rechaza de plano si la entidad ya cuenta con una estructuración propia para el mismo objeto o si un tercero ya registró previamente el proyecto en el RUAPP. Este oficio constituye la **certificación negativa formal de la entidad territorial** que descarta ambas causales, otorgando certeza jurídica plena a la radicación de Ecobank.
+-2. **Viabilidad Territorial Consistente (PBOT Industrial):**  
+-   El uso del suelo proyectado para el inmueble en el PBOT es expresamente **industrial**, garantizando que la operación a escala de Categoría Nacional ante el INVIMA no enfrentará restricciones o incompatibilidades de ordenamiento territorial municipal.
+-3. **Tradición Inmobiliaria Entregada:**  
+-   La constancia de entrega oficial de la escritura pública por Almacén Municipal enlaza directamente con el estudio de títulos del predio ([Escritura Pública No. 1.860 de 1988](./1988-11-09-escritura-1860-notaria-unica-libano-adjudicacion-municipio.pdf) y Folio de Matrícula [364-917](./informe-titulos-matricula-364-917-v1.md)).
++**Fecha de corte:** 29 de agosto de 2026 («a la fecha»). El oficio es anterior a la radicación y a la publicación; no cubre hechos posteriores.
++
++1. **Ausencia de otros procesos o iniciativas (antes «Cero Rechazo»).**
++   - *Lo que certifica:* que el Municipio **no adelanta** procesos de estructuración, concesión o contratación pública sobre la rehabilitación u operación de la planta. Esto sustenta el descarte de la causal de rechazo por estructuración propia de la entidad.
++   - *Lo que no certifica:* que ningún tercero haya registrado una iniciativa. Sobre ese punto el oficio dice solo que, **«hasta donde tiene conocimiento»** la Administración, nadie ha radicado ante el DNP otra iniciativa. Es una manifestación de conocimiento del Municipio, no una constancia del DNP ni del RUAPP, que no es llevado por el Municipio.
++   - *Conclusión:* el riesgo de rechazo queda **mitigado, no cerrado**. Debe verificarse en el RUAPP/DNP en la fecha de radicación y conservar la constancia. Se retira la expresión «certeza jurídica plena».
++2. **Uso del suelo.** El uso industrial es el **proyectado en el PBOT, que está en formulación**. El propio oficio aclara que no es aprobación anticipada ni reemplaza licencias o permisos. No equivale a un uso de suelo vigente y no «garantiza» la ausencia de restricciones. Debe obtenerse el concepto de uso de suelo vigente (norma aplicable hoy) y seguir la adopción del PBOT. Ver riesgo R-14.
++3. **Escritura pública.** El oficio **no aporta** la escritura: dice que ya fue entregada por la Oficina de Almacén. La entrega no equivale a verificar el título (ver [Informe de títulos](./informe-titulos-matricula-364-917-v1.md) y [Plan de reconciliación de cabida](./plan-reconciliacion-cabida-operativa-v1.md)). La escritura en esta sala es el [PDF compilado de la Escritura 1.860 de 1988](./1988-11-09-escritura-1860-notaria-unica-libano-adjudicacion-municipio.pdf), cuyas observaciones siguen abiertas.
++4. **Observaciones de forma:** el oficio usa el formato FO-GDC-A03-13 (versión 01), el mismo código de la certificación de contratación (versión 02), lo cual es un código de formato institucional compartido y no implica identidad de documentos. La destinataria figura como «Ecobank Davelopment Colombia S.A.S» («No Aporta» dirección); error del original.
+diff --git a/01_titulos_y_seguridad_juridica/oficio-respuesta-alcaldia-predio-v1.md b/01_titulos_y_seguridad_juridica/oficio-respuesta-alcaldia-predio-v1.md
+index c0acccc..d52b0b6 100644
+--- a/01_titulos_y_seguridad_juridica/oficio-respuesta-alcaldia-predio-v1.md
++++ b/01_titulos_y_seguridad_juridica/oficio-respuesta-alcaldia-predio-v1.md
+@@ -55,10 +55,18 @@
+ 
+ ---
+ 
+-## 3. Estado de Ejecución de las Respuestas
++## 3. Estado de las Respuestas (Revisión 3)
+ 
+-* **Servicios Públicos (Punto 1):** Tramitado de manera directa ante EMSER E.S.P. y Celsia Colombia S.A. E.S.P. para verificar puntos de conexión y tarifas.
+-* **Mantenimiento y Acceso de Terceros (Puntos 2 y 3):** Cerrados de forma definitiva y favorable con la Certificación `FO-GDC-A03-13`.
+-* **Ficha Catastral y Tradición (Punto 4):**
+-  - Certificado de Tradición de la Matrícula 364-917 recibido y protocolizado en este Data Room.
+-  - Asignación formal de cédula catastral e investigación registral en trámite activo ante la Secretaría de Planeación.
++El oficio no resuelve de fondo los cuatro puntos; remite a otras dependencias o terceros. Estado según lo que consta en esta sala:
++
++| Punto | Lo que dice el oficio | Estado |
++|---|---|---|
++| 1. Contratos de servicios públicos | Remite por competencia a EMSER E.S.P. y Celsia | **Abierto.** No hay respuesta de EMSER ni de Celsia en la sala. Esta sala no contiene evidencia de que se haya tramitado la consulta |
++| 2. Contratos de mantenimiento | Remite a la certificación de contratación | **Atendido con alcance limitado.** FO-GDC-A03-13 certifica solo la ausencia de contrato actual de mantenimiento |
++| 3. Acceso de terceros (distinto al vivero ya identificado) | Remite a la certificación de contratación | **Atendido con alcance limitado.** La certificación dice que en esa oficina no reposa documento. No cubre al vivero ni a otras dependencias |
++| 4. Ficha catastral y avalúo | El registro catastral figura «SIN INFORMACIÓN»; solicita a Planeación identificar la ficha y remitir el avalúo | **Abierto.** No hay ficha ni avalúo. El anexo de 9 folios (certificado de tradición) **no está incluido en esta sala** |
++
++**Correcciones a la versión anterior de este documento:**
++- Se retira que los puntos 2 y 3 fueron «cerrados de forma definitiva y favorable». La certificación tiene el alcance descrito en su propia ficha.
++- Se retira que los servicios públicos fueron «tramitados de manera directa» ante EMSER y Celsia, y que el certificado de tradición fue «recibido y protocolizado en este Data Room»: el oficio no dice eso y el anexo no está en la sala.
++- Se retira que la asignación de cédula catastral está en «trámite activo»: el oficio solo *solicita* a Planeación identificarla.
+diff --git a/02_expediente_app_concesion/prefactibilidad-pba-libano-v1.md b/02_expediente_app_concesion/prefactibilidad-pba-libano-v1.md
+index 8c8361d..e551a69 100644
+--- a/02_expediente_app_concesion/prefactibilidad-pba-libano-v1.md
++++ b/02_expediente_app_concesion/prefactibilidad-pba-libano-v1.md
+@@ -76,7 +76,7 @@ Conforme al Decreto 1082 de 2015 (Art. 2.2.2.1.4.3), la evaluación económica s
+ ## 7. Gestión y Asignación de Riesgos
+ 
+ La prefactibilidad identifica y mitiga los riesgos centrales del proyecto bajo lineamientos CONPES:
+-* **Riesgo Predial y de Suelo (R-08 / R-14):** Titularidad acreditada 100% en el Municipio (Matrícula 364-917). Uso de suelo industrial en PBOT certificado formalmente por Secretaría de Planeación (`AL-RS-2026-00005383`).
+-* **Riesgo de Rechazo / Competencia Paralela (R-12):** Certificación oficial de la Secretaría de Planeación de que el municipio no adelanta estructuración propia y ningún tercero está registrado en RUAPP (`AL-RS-2026-00005383`).
++* **Riesgo Predial y de Suelo (R-08 / R-14):** Titularidad acreditada 100% en el Municipio (Matrícula 364-917). Uso de suelo industrial **proyectado** en el PBOT en formulación, según Secretaría de Planeación (`AL-RS-2026-00005383`, 29/08/2026); no es aprobación anticipada ni sustituye el concepto de uso de suelo vigente.
++* **Riesgo de Rechazo / Competencia Paralela (R-12):** Oficio de la Secretaría de Planeación (`AL-RS-2026-00005383`, 29/08/2026): el municipio no adelanta estructuración propia y, hasta donde tiene conocimiento, ningún tercero ha radicado iniciativa ante el DNP. Se verificará en el RUAPP/DNP a la fecha de radicación.
+ * **Riesgo Ambiental (R-05):** Permiso CORTOLIMA vigente (Res. 1910/2022 suspendido reactivable).
+-* **Riesgo de Disponibilidad:** Obligación contractual de entrega libre de gravámenes a cargo de la entidad (certificación `FO-GDC-A03-13`).
++* **Riesgo de Disponibilidad:** Obligación contractual de entrega libre de ocupaciones y gravámenes a cargo de la entidad (cláusula 6.4). La certificación `FO-GDC-A03-13` (10/09/2026) solo acredita que no hay contrato actual de mantenimiento ni documentos de acceso de terceros en contratación; el vivero (R-34) sigue pendiente.
+diff --git a/03_anexos_tecnicos_y_ambientales/matriz-riesgos-conpes-3714-v1.md b/03_anexos_tecnicos_y_ambientales/matriz-riesgos-conpes-3714-v1.md
+index 8c5178a..3e4ae65 100644
+--- a/03_anexos_tecnicos_y_ambientales/matriz-riesgos-conpes-3714-v1.md
++++ b/03_anexos_tecnicos_y_ambientales/matriz-riesgos-conpes-3714-v1.md
+@@ -48,7 +48,7 @@ Bajo la modalidad de iniciativa privada pura sin desembolso de recursos público
+ | Código | Riesgo Tipificado | Descripción del Evento | Etapa | Prob. | Imp. | Asignación | Mecanismo de Mitigación y Compensación |
+ |:------:|-------------------|------------------------|:-----:|:-----:|:----:|:----------:|-----------------------------------------|
+ | **R-08** | Saneamiento Catastral y Cabida Operativa | Discrepancia entre área titulada formal (1.034,99 m² según Folio 364-917) y huella operativa (~3.000 m²). | Prefactibilidad / Factibilidad | Alta | Medio | **Público** (titularidad) / **Compartido** | La discrepancia ya existe (~1.965 m² sin título en esta sala). Titularidad municipal registrada sobre 1.034,99 m² (Anotación 4, Escritura 1860/1988; certificado de 2018). Pendientes: escrituras 935/1959 y 109/1979, ficha catastral, levantamiento georreferenciado y acto de saneamiento (ver plan de reconciliación). |
+-| **R-34** | Ocupación Física Transitoria (Vivero) | Presencia de ocupante transitorio de árboles que opera sin contrato formal en parte del predio. | Prefactibilidad / Inicio | Baja | Bajo | **Público** | Certificación municipal FO-GDC-A03-13 confirma inexistencia de contratos o derechos oponibles. La Alcaldía tiene listo el protocolo de restitución pacífica gatillado por la radicación formal. |
++| **R-34** | Ocupación Física Transitoria (Vivero) | Presencia de ocupante de hecho (vivero) que opera sin contrato formal en parte del predio. | Prefactibilidad / Inicio | Media | Medio | **Público** | La certificación FO-GDC-A03-13 (10/09/2026) no menciona el vivero; solo indica que en contratación no reposan documentos de acceso de terceros, lo cual no descarta derechos o expectativas del ocupante. El oficio AL-RS-2026-00005653 reconoce al «vivero ya identificado». **Pendiente:** soporte escrito del protocolo de restitución (hoy no consta en la sala), fecha de entrega y verificación en sitio. Cláusula 6.4 de la minuta. |
+ | **R-42** | Controversia Judicial con Operador Anterior | Litigio administrativo abierto entre el Municipio y el contratista anterior de la planta. | Pre-radicación / Firma | Media | Medio | **Público** | El litigio involucra exclusivamente al Municipio y no afecta la propiedad real del predio. La liquidación contractual y saneamiento procesal es deber municipal previo al acta de inicio *(cláusula por definir: el borrador de minuta llega hasta la 6.4)*. |
+ | **R-09** | Requerimiento de Consulta Previa | Posible presencia de comunidades étnicas con derecho a consulta en el área de influencia directa. | Factibilidad | Baja | Alto | **Compartido** | Radicación de solicitud de certificación formal ante la Dirección de la Autoridad Nacional de Consulta Previa (DANCP). Antecedente de uso industrial continuado favorece certificación negativa. |
+ | **R-10** | Percepción y Aceptación Comunitaria | Inquietud de vecinos colindantes respecto a olores, ruidos o tráfico de ganado. | Factibilidad / Operación | Baja | Medio | **Privado** | Socialización continua, implementación del Plan de Gestión Social y canal permanente de atención de peticiones y quejas. |
+@@ -60,7 +60,7 @@ Bajo la modalidad de iniciativa privada pura sin desembolso de recursos público
+ 
+ | Código | Riesgo Tipificado | Descripción del Evento | Etapa | Prob. | Imp. | Asignación | Mecanismo de Mitigación y Compensación |
+ |:------:|-------------------|------------------------|:-----:|:-----:|:----:|:----------:|-----------------------------------------|
+-| **R-12** | Existencia de Propuesta Concurrente / Causal de Rechazo | Riesgo de estructuración paralela o iniciativa de terceros en el RUAPP sobre el mismo activo municipal (Decreto 1082, Art. 2.2.2.1.5.1). | Pre-radicación | Muy Baja | Alto | **Privado** / **Público** | **Cerrado y certificado documentalmente:** la Secretaría de Planeación certificó formalmente mediante Oficio `AL-RS-2026-00005383` que el Municipio *no adelanta procesos de estructuración pública* y que *ningún tercero ha radicado iniciativa ante el DNP*. Causal de rechazo 100% descartada. |
++| **R-12** | Existencia de Propuesta Concurrente / Causal de Rechazo | Riesgo de estructuración paralela o iniciativa de terceros en el RUAPP sobre el mismo activo municipal (Decreto 1082, Art. 2.2.2.1.5.1). | Pre-radicación | Muy Baja | Alto | **Privado** / **Público** | **Mitigado, no cerrado:** el Oficio `AL-RS-2026-00005383` (29/08/2026) certifica que el Municipio *no adelanta procesos de estructuración* y que, *hasta donde tiene conocimiento*, ningún tercero ha radicado iniciativa ante el DNP. Es una manifestación del Municipio, no una constancia del DNP/RUAPP. **Pendiente:** verificar en el RUAPP/DNP a la fecha de radicación y conservar la constancia. |
+ | **R-13** | Demoras en Autorización Sanitaria INVIMA | Tiempos prolongados en la emisión de la certificación sanitaria bajo Decreto 1500 de 2007. | Factibilidad / Puesta en Marcha | Media | Alto | **Privado** (gestión) / **Público** (acompañamiento) | Aplicación del Decreto 1975 de 2019 que autoriza la emisión de Concepto Sanitario Favorable provisional para iniciar operaciones mientras concluye la auditoría final. |
+ | **R-14** | Tiempos de Aprobación en Concejo Municipal | Dilación en la autorización municipal para la entrega de la infraestructura pública en concesión. | Factibilidad | Media | Medio | **Público** | Socialización institucional temprana, presentación del balance costo-beneficio y trámite concertado dentro del periodo ordinario de sesiones. |
+ | **R-15** | Continuidad de Experiencia en la SPE | Acreditación formal de requisitos habilitantes entre originador y sociedad vehículo. | Factibilidad | Muy Baja | Bajo | **Privado** | Mecanismo del Decreto 1082 (Art. 2.2.1.1.1.5.2 §2.5) avalado por Colombia Compra Eficiente: acreditación directa vía matriz controlante. |
+diff --git a/_sidebar.md b/_sidebar.md
+index edb645d..1bf2095 100644
+--- a/_sidebar.md
++++ b/_sidebar.md
+@@ -9,11 +9,11 @@
+   * [Informe de Títulos Matrícula 364-917](01_titulos_y_seguridad_juridica/informe-titulos-matricula-364-917-v1.md)
+   * [Certificación Oficial Contratación](01_titulos_y_seguridad_juridica/certificacion-oficial-contratacion-v1.md)
+   * [Oficio Respuesta Predio (AL-RS-2026-00005653)](01_titulos_y_seguridad_juridica/oficio-respuesta-alcaldia-predio-v1.md)
+-  * [Oficio Planeación PBOT y Cero Rechazo](01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md)
++  * [Oficio Planeación PBOT e Iniciativas Concurrentes](01_titulos_y_seguridad_juridica/oficio-planeacion-uso-suelo-y-no-rechazo-v1.md)
+   * [Plan Reconciliación Cabida Operativa](01_titulos_y_seguridad_juridica/plan-reconciliacion-cabida-operativa-v1.md)
+   * *Documentos Oficiales (PDF)*:
+     * [Escritura 1860 de 1988 + certificado de tradición 2018 (compilado; pendiente copia legible)](01_titulos_y_seguridad_juridica/1988-11-09-escritura-1860-notaria-unica-libano-adjudicacion-municipio.pdf ':ignore')
+-    * [PBOT y Cero Rechazo AL-RS-2026-00005383](01_titulos_y_seguridad_juridica/2026-08-29-al-rs-2026-00005383-planeacion-uso-suelo-y-ausencia-iniciativas.pdf ':ignore')
++    * [PBOT e Iniciativas Concurrentes AL-RS-2026-00005383](01_titulos_y_seguridad_juridica/2026-08-29-al-rs-2026-00005383-planeacion-uso-suelo-y-ausencia-iniciativas.pdf ':ignore')
+     * [Respuesta Alcaldía AL-RS-2026-00005653](01_titulos_y_seguridad_juridica/2026-09-10-al-rs-2026-00005653-respuesta-solicitud-contratos-y-predio.pdf ':ignore')
+     * [Certificación FO-GDC-A03-13](01_titulos_y_seguridad_juridica/2026-09-10-fo-gdc-a03-13-certificacion-contratacion-mantenimiento-acceso.pdf ':ignore')
+ 
+-- 
+2.43.0
+

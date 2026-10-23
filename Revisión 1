@@ -1,0 +1,26 @@
+el repositorio original, "srbde/ruapp-data-room", es público y su README es idéntico al de tu fork (ruapp-data-room2-mlx) q también es público,.. (hasta ahí normal a menos que se quuera cambiar o volver el repositario Privado
+Ambos tienen 7 commits y la misma estructura. Hay dos copias públicas de un expediente que se declara reservado (acá si tiene mas sentido...)
+Se podría poner los archivos Municipales como Publicos y los archivos de los inversionistas Privados..
+
+docs: registrar revisión estructural del data room (sep 28 de 2026)
+
+Revisión de estructura y coherencia del README y árbol de carpetas.
+No cubre el contenido de los .md ni de los PDFs (pendiente).
+
+Hallazgos:
+- Confidencialidad: el README declara reserva estricta, pero el repo
+  (y el original srbde/ruapp-data-room) es público.
+- README referencia ruapp/data-room/ pero las carpetas están en la raíz;
+  index.html, _sidebar.md y .nojekyll (docsify) no están documentados.
+- 00_resumen_ejecutivo incluye un investment teaser, fuera del alcance
+  municipal que el propio README delimita.
+- Nombres inconsistentes: PDFs con prefijo de fecha, .md con sufijo -v1.
+- Faltan índice de documentos con estado, changelog y fecha de corte.
+
+Pendiente de verificar en contenido:
+- Reconciliación de cabida (1.035 m² titulados vs ~3.000 m² huella).
+- Alcance y fecha exactos de "cero rechazo" y "cero contratos vigentes".
+- Fuentes de 165.488 cabezas de hato y del 5% de contraprestación.
+- Cita de reformas posteriores a la Ley 1508/2012 (p. ej. Ley 1882/2018).
+                                                                                                                                                   
+  Revisado por: A. Arango                                                                                                                                                 

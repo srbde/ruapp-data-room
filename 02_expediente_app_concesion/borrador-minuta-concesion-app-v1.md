@@ -308,7 +308,7 @@ Régimen tributario · Confidencialidad y reserva del modelo financiero · Antic
 | **3** | Niveles de Servicio y Estándares Sanitarios | Indicadores de disponibilidad, bioseguridad y faenamiento | Ver [estandares-niveles-servicio-pba-v1.md](../03_anexos_tecnicos_y_ambientales/estandares-niveles-servicio-pba-v1.md) |
 | **4** | Régimen Tarifario y Fórmulas de Deducción | Cuadro de tarifas iniciales, indexación IPC y penalidades | Integrado en Anexo Tarifario |
 | **5** | Plan de Manejo Social y Comunitario | Compromisos de empleo local, socialización y relación vecinal | Ver [plan-gestion-social-comunitaria-v1.md](../03_anexos_tecnicos_y_ambientales/plan-gestion-social-comunitaria-v1.md) |
-| **6** | Inventario y Entrega Predial | Delimitación física, linderos y cabida operativa | Ver [informe-titulos-matricula-364-917-v1.md](../01_titulos_y_seguridad_juridica/informe-titulos-matricula-364-917-v1.md) |
+| **6** | Inventario y Entrega Predial | Delimitación física, linderos y cabida operativa | Ver [informe-titulos-matricula-364-917-v1.md](../01_titulos_y_seguridad_juridica/informe-titulos-matricula-364-917-v1.md) y [plan-reconciliacion-cabida-operativa-v1.md](../01_titulos_y_seguridad_juridica/plan-reconciliacion-cabida-operativa-v1.md) |
 | **7** | Régimen de Garantías y Seguros | Coberturas, amparos mínimos y vigencias asegurativas | Ficha de Garantías |
 | **8** | Mecanismo Líquido de Contingencias | Procedimiento de custodia, fondeo y desahogo de garantías | Ver [sustentacion-suficiencia-mecanismos-v1.md](../03_anexos_tecnicos_y_ambientales/sustentacion-suficiencia-mecanismos-v1.md) |
 | **9** | Estándar de Reversión | Procedimiento pericial y protocolo de transferencia final | Manual de Reversión |

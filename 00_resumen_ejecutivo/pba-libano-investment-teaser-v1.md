@@ -4,6 +4,9 @@
 **Ecobank Development Colombia S.A.S. — Originador**  
 *Data Room Edition · Septiembre 2026*
 
+> [!NOTE]
+> **Aviso de alcance:** este documento es de carácter de inversión y queda fuera del alcance institucional/municipal que delimita el README de esta sala de datos. Su ubicación definitiva (sala de inversión) está pendiente de decisión.
+
 ---
 
 ## 1. Tesis de Inversión y Visión del Proyecto
